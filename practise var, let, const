@@ -1,0 +1,274 @@
+    // var fruit = 'apple';
+    // {
+    //     var fruit = 'orange';
+    //     console.log(fruit);
+    // }
+    // console.log(fruit); 
+
+    // // ans=> orange
+    // // Question2 //
+
+    //     let animal = 'cat';
+    // {
+    //     let animal = 'dog';
+    //     console.log(animal); 
+    // }
+    // console.log(animal); 
+
+    // // ans=> dog cat
+
+    // //Que3//
+    //     const color = 'red';
+    // {
+    //     const color = 'blue';
+    //     console.log(color); 
+    // }
+    // console.log(color);
+
+    // note//
+    // const and let show block scope{}.
+    // var show the global scope.//
+
+
+    //Que4 //
+    //     var x = 10;
+    // var x = 20;
+    // console.log(x);
+
+    // let y = 30;
+    // // let y = 40; 
+    // console.log(y);
+
+    // const z = 50;
+    // // const z = 60;
+    //  console.log(z);
+
+    // let a = 1;
+    // a = 2;
+    // console.log(a);
+
+    // const b = 3;
+    //  b = 4; 
+    //  console.log(b);
+
+     // this question 4th case const b=3 .
+     //const value cannot be exit.So this case show the type error.//
+
+     //que5//
+    //      console.log(myVar);
+    // var myVar = "hello";//undefined//
+
+    // console.log(myLet); // refference error
+    // let myLet = "world";
+
+    //  console.log(myConst); 
+    //   const myConst = "!";//refference error//
+
+    // que6//
+    //     console.log("5" + 5);
+    // console.log("10" - 5);
+    // console.log(true + 1);
+    // console.log(false - 1);
+    // console.log("5" * "2");
+    // console.log("abc" / 2);// NaN//
+    // console.log(null+1);
+    // console.log(undefined +1);
+    // console.log([]+1)
+    // console.log([1+2]+[3+4])
+    // console.log({}+1);
+    // console.log(1+{});
+    // console.log(" \t\n" -2);
+    // console.log(" \t\n" +2);
+    // console.log("5px"-2);//ans NaN becoz - is used.
+    // console.log("5px"+2); //ans "5px2" becoz+ is used for concatination"//
+
+//que7//
+// const x = 10;
+// if (true) {
+//   const x = 20;
+//   console.log(x);
+// }
+// console.log(x);
+
+//que8//
+
+// function scopeTest() {
+//   if (true) {
+//     var a = 1;
+//     let b = 2;
+//     const c = 3;
+//   }
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+// scopeTest();
+
+// //que8//
+// console.log(car);
+// var car = "Honda";
+
+// console.log(bike);
+// let bike = "Kawasaki";
+
+//que9//
+// console.log(3 + "3");
+// console.log("3" - 3);
+// console.log(3 + 3 + "3");
+// console.log("3" + 3 + 3);
+// // Q1
+// function test1() {
+//   var x = 10;
+//   if (true) {
+//     var x = 20;
+//     console.log(x);
+//   }
+//   console.log(x);
+// }
+// test1();
+
+// // Q2
+// function test2() {
+//   let y = 10;
+//   if (true) {
+//     let y = 20;
+//     console.log(y);
+//   }
+//   console.log(y);
+// }
+// test2();
+
+
+// // Q3
+// function test3() {
+//   const z = 30;
+//   z = 40;
+//   console.log(z);
+// }
+// test3();
+//understand//
+
+// // Q4
+// console.log(typeof null);
+// console.log(typeof []);
+// console.log(typeof {});
+// console.log(typeof function() {});
+
+// // Q6
+// let x;
+// console.log(x == undefined);
+// console.log(x === undefined);
+// console.log(x == null);// true
+// console.log(x === null);
+
+// Q7
+// console.log(2+ "2");
+// console.log(+"2"+ +"2"); //if output show 4 then use + before 2"
+// console.log(2 - "2");
+// console.log("6" / "2");
+// console.log("6" * "2");
+// console.log("6" - "2" + "4"); 
+// console.log("6" - "2" + 4);
+
+// // Q8
+// console.log(true + true);
+// console.log(false + true);
+// console.log(true - false);
+// console.log("true" + true);
+
+
+// // Q9
+// let i = 5;
+// console.log(i++); 
+// console.log(i);
+// console.log(++i);
+// console.log(i);
+
+// Q10
+// let j = 10;
+// console.log(j--);  
+// console.log(j);    
+// console.log(--j);  
+// console.log(j);    
+
+// // Q11 (Tricky)
+// let k = 5;
+// console.log(k++ + ++k);
+
+// Q12 (Nested)
+// let m = 3;
+ // let n = m++ + ++m + m-- + --m;
+// console.log(n);
+
+
+// let a = 5;
+// console.log(a++); // ?
+// console.log(a);   // ?
+
+// let b = 5;
+// console.log(++b); // ?
+// console.log(b);   // ?
+
+
+// let x = 3;
+// console.log(x++ + ++x); // ?
+
+// let y = 2;
+// let result = y++ + y++ + ++y + --y;
+// console.log(result); // ?
+
+// let i = 10;
+// let j = i++ + 5;
+// console.log(i); // ?
+// console.log(j); // ?
+
+// let k = 10;
+// let l = ++k + 5;
+// console.log(k); // ?
+// console.log(l); // ?
+
+    // let num = 10;
+    // let result = num-- + ++num;
+    // console.log(result);
+    // console.log(num);
+
+
+// let m = 1;
+// m = m++ + ++m + m-- + --m;
+// console.log(m); // ?
+
+// let z = 0;
+// for(let i = 0; i < 3; i++){
+//     z += i++;
+// }
+// console.log(z); // ?
+
+    // let i = 3;
+    // let j = i++ * --i;
+    // console.log(i);
+    // console.log(j);
+
+    //     let count = 0;
+    // console.log(count++);
+    // console.log(++count);
+    // console.log(count);
+
+
+//     let a = 5;
+// let b = ++a;
+
+// let c = 10;
+// let d = c++;
+// console.log (b);
+// console.log(d);
+
+let x = 3;
+let y = x++;
+let z = ++x;
+
+console.log('x:', x);
+console.log('y:', y);
+console.log('z:', z);
+
+
+
