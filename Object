@@ -1,0 +1,6 @@
+// //destructring in object//
+// const course={
+//     coursename: 'js in hindi',
+//     price: '999',
+//     courseInstructor: 'himesh'
+// }
